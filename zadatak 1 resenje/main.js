@@ -1,6 +1,13 @@
 (function () {
   const canvas = document.getElementById("canvas");
   const context = canvas.getContext("2d");
+  //fetch frames info from the json file and store it into local storage
+  fetch("assets/backgroundAnim.json")
+    .then((res) => res.json())
+    .then((res) => {
+      let textures = res.textures[0];
+      localStorage.setItem("textures", JSON.stringify(textures));
+    });
   //get the textures from the local storage
   const textures = JSON.parse(localStorage.getItem("textures"));
   //filter landscape and portrait frames from the array
@@ -24,13 +31,7 @@
   function initialize() {
     window.addEventListener("resize", resizeCanvas, false);
     window.addEventListener("load", resizeCanvas, false);
-    //fetch frames info from the json file and store it into local storage
-    fetch("assets/backgroundAnim.json")
-      .then((res) => res.json())
-      .then((res) => {
-        let textures = res.textures[0];
-        localStorage.setItem("textures", JSON.stringify(textures));
-      });
+
     setInterval(redraw, 200);
     resizeCanvas();
   }
@@ -82,6 +83,7 @@
       bgw = 518;
       bgh = 922;
     }
+
     redraw();
   }
 })();

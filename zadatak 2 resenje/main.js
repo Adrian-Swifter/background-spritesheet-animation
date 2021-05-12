@@ -1,6 +1,13 @@
 (function () {
   const canvas = document.getElementById("canvas");
   const context = canvas.getContext("2d");
+  //fetch frames info from the json file and store it into local storage
+  fetch("assets/star.json")
+    .then((res) => res.json())
+    .then((res) => {
+      let frames = res.frames;
+      localStorage.setItem("textures", JSON.stringify(frames));
+    });
   //get the frames from the local storage and filter smalStars
   const frames = JSON.parse(localStorage.getItem("textures")).filter((frame) =>
     frame.filename.includes("small")
@@ -16,13 +23,7 @@
   function initialize() {
     window.addEventListener("resize", resizeCanvas, false);
     window.addEventListener("load", resizeCanvas, false);
-    //fetch frames info from the json file and store it into local storage
-    fetch("assets/star.json")
-      .then((res) => res.json())
-      .then((res) => {
-        let frames = res.frames;
-        localStorage.setItem("textures", JSON.stringify(frames));
-      });
+
     setInterval(redraw, 500);
     resizeCanvas();
   }
