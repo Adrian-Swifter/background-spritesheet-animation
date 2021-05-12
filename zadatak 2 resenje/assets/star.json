@@ -1,0 +1,124 @@
+{"frames": [
+
+{
+	"filename": "smallStars_1",
+	"frame": {"x":1,"y":1,"w":252,"h":252},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":252},
+	"sourceSize": {"w":252,"h":252}
+},
+{
+	"filename": "smallStars_2",
+	"frame": {"x":255,"y":1,"w":252,"h":252},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":252},
+	"sourceSize": {"w":252,"h":252}
+},
+{
+	"filename": "smallStars_3",
+	"frame": {"x":1,"y":509,"w":249,"h":252},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":0,"w":249,"h":252},
+	"sourceSize": {"w":252,"h":252}
+},
+{
+	"filename": "smallStars_4",
+	"frame": {"x":255,"y":501,"w":251,"h":250},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":251,"h":250},
+	"sourceSize": {"w":252,"h":252}
+},
+{
+	"filename": "smallStars_5",
+	"frame": {"x":1,"y":255,"w":252,"h":252},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":252},
+	"sourceSize": {"w":252,"h":252}
+},
+{
+	"filename": "smallStars_6",
+	"frame": {"x":255,"y":255,"w":252,"h":244},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":252,"h":244},
+	"sourceSize": {"w":252,"h":252}
+},
+{
+	"filename": "zvezdica_1",
+	"frame": {"x":252,"y":753,"w":51,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":51},
+	"sourceSize": {"w":51,"h":51}
+},
+{
+	"filename": "zvezdica_2",
+	"frame": {"x":464,"y":753,"w":37,"h":36},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":7,"w":37,"h":36},
+	"sourceSize": {"w":51,"h":50}
+},
+{
+	"filename": "zvezdica_3",
+	"frame": {"x":305,"y":753,"w":51,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":51},
+	"sourceSize": {"w":51,"h":51}
+},
+{
+	"filename": "zvezdica_4",
+	"frame": {"x":358,"y":753,"w":51,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":51},
+	"sourceSize": {"w":51,"h":51}
+},
+{
+	"filename": "zvezdica_5",
+	"frame": {"x":411,"y":753,"w":51,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":51},
+	"sourceSize": {"w":51,"h":51}
+},
+{
+	"filename": "zvezdica_6",
+	"frame": {"x":1,"y":912,"w":51,"h":50},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":50},
+	"sourceSize": {"w":51,"h":50}
+},
+{
+	"filename": "zvezdica_7",
+	"frame": {"x":1,"y":806,"w":51,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":51},
+	"sourceSize": {"w":51,"h":51}
+},
+{
+	"filename": "zvezdica_8",
+	"frame": {"x":1,"y":859,"w":51,"h":51},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":51,"h":51},
+	"sourceSize": {"w":51,"h":51}
+}],
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "star.png",
+	"format": "RGBA8888",
+	"size": {"w":512,"h":1024},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:87d14971318dc3f7bb956a0a409f44b9:7cba475736435ec90577e58879460cbe:24daf5f0426eb704a6b44d07225f8860$"
+}
+}
